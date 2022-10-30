@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginPILU"><![CDATA[
+
+
+
+    "
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/merahputih"
+        android:layout_width="467dp"
+        android:layout_height="743dp"
+        android:src="@drawable/merahputih"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-28dp" />
+
+    <ImageView
+        android:id="@+id/paku"
+        android:layout_width="192dp"
+        android:layout_height="138dp"
+        android:src="@drawable/pilu"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="41dp"
+        android:src="@drawable/pemilihanumumonline"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Rectangle1"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lupakatasandi"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="127dp"
+        android:src="@drawable/buatakun"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="163dp" />
+
+    <ImageView
+        android:layout_width="27dp"
+        android:layout_height="14dp"
+        android:src="@drawable/nik"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Rectangle1"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/katasandi"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:src="@drawable/simbolmata"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="439dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
